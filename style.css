@@ -1,0 +1,92 @@
+body {
+    background-color: #987EFF;
+    font-family: cursive;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.rounded-table {
+    border: 2px solid #333;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    color: white;
+    font-size: 60px;
+}
+
+.btn-primary {
+    color: #5320c2;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #a9e065;
+    border-color: #ffffff;
+}
+
+.btn-danger {
+    color: #5320c2;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-danger:hover {
+    background-color: #f09c9c;
+    border-color: #ffffff;
+}
+
+.btn-success {
+    background-color: #5320c2;
+}
+
+.btn-success:hover {
+    background-color: #987EFF;
+    border-color: #5320c2;
+}
+
+.table-light {
+    background-color: #987EFF;
+}
+
+.table-light th {
+    background-color: #5320c2;
+    color: white;
+}
+
+.table-light tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.table-light td {
+    background-color: rgb(255, 255, 255);
+    color: gray;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #5320c2;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    margin: auto;
+}
+
+.circle.checked {
+    background-color: #5320c2;
+}
